@@ -1,0 +1,68 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Hey","Good day", "Whats up", "Hola"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?","hurry up, I don't have all day"],
+         "context_set": ""},
+        
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day","bye"],
+         "responses": ["Sad to see you go..", "Talk to you later", "Goodbye!", "Bye-bye"],
+         "context_set": ""},
+        
+        {"tag": "help",
+         "patterns": ["help", "Help!", "HELP ME", "Please help", "I need help", "assistance", "HELP", "help me"],
+         "responses": ["You can ask me any of these questions: \n 1: What was the top rated movie in ___(year)? \n 2: What were the top 5 countries for movie production in ____(year)? \n 3: How many movies and shows has ____(actor) been in that are on Netflix? \n 4: What is the longest movie of ____(genre) in the database? \n 5: What is the earliest movie with a rating of __(age rating)? \n 6: How many seasons did the top-rated show from ____(year) go? \n 7: What __(number) shows got the most votes on IMDB? \n 8: What was the most common genre for a show between ____ and ____(years)? \n 9: What is the IMDB score of the best voted show with a rating of ____(age rating)? \n 10: Who are the __(number) highest-rated movie directors? \n Type 'help' for assistance \n Type 'quit' to stop"],
+         "context_set": ""},
+         
+         {"tag": "Question 1",
+         "patterns": ["What was the top rated movie in?", "what was the top movie", "What did people like the most in", "What movie did people prefer", "What was the best movie of", "What was the premier movie of", "What was the top movie of", "best movie", "top movie", "highest-rated movie", "premier movie", "most popular movie", "In, what was the highest-rated movie", "What movie had the best", "'s best movie?", "What film had the highest rating?"],
+         "responses": [],
+         "context_set": ""},
+         
+         {"tag": "Question 2",
+         "patterns": ["What were the top 5 countries for movie production in?", "What were the most common countries", "What 5 countries produced the most movies", "country", "countries", "5 countries", "five countries", "where", "most common", "Where were movies made", "Where were movies produced", "What places were used", "In, where were the most movies made?", "Top 5 countries for filimng?", "Give me the best places to film", "Get me the most popular countries to make movies", "What were the top 5 countries for filming?", "location", "place", "What were the top locations to film at in?", "In what were the top places to film?", "What were the best nations for movies to be filmed?"],
+         "responses": ["Question 2"],
+         "context_set": ""},
+         
+         {"tag": "Question 3",
+         "patterns": ["How many movies and shows has been in that are on Netflix?", "How many", "How often has this actor been in a movie or show?", "What movies is in", "How many shows is", "How many movies is", "What can I see in", "How many shows was in on Netflix?", "Which shows starred?", "What shows and movies had in them?"],
+         "responses": ["Question 3"],
+         "context_set": ""},
+         
+         {"tag": "Question 4",
+         "patterns": ["What is the longest movie in the database?", "How long is the longest movie in the dataset?", "What movie is the longest", "What's the longest comedy", "genre", "longest", "action", "comedy", "romance", "runtime", "duration", "What movie has the highest duration", "What romance movie", "Which action movie", "Of the sci-fi movies, which is the longest?", "What is the runtime of Netflix' longest comedy?", "What film of the genre has the most length?"],
+         "responses": ["Question 4"],
+         "context_set": ""},
+         
+         {"tag": "Question 5",
+         "patterns": ["What is the earliest movie with a rating of", "What is the first ever movie?", "What was the first movie", "What movie was rated first?", "early", "first", "earliest", "oldest", "old", "rating", "What PG movie is the oldest", "When was the first PG movie made", "What movie with a PG-13 age rating is the oldest?"],
+         "responses": ["Question 5"],
+         "context_set": ""},
+         
+         {"tag": "Question 6",
+         "patterns": ["How many seasons did the top-rated show from x year go?", "How long did run for?", "How many seasons was?", "How many seasons are there of", "How long was", "How many seasons are there", "How long did the show last", "seasons", "season", "top show", "how long", "run", "For how long did the best show of", "How many seasons did the premier show of", "The best show of lasted how many seasons?", "What show from was the best and how long did it go for?"],
+         "responses": ["Question 6"],
+         "context_set": ""},
+         
+         {"tag": "Question 7",
+         "patterns": ["What shows got the most votes on IMDB?", "What shows were voted on the most?", "Which shows were voted on most frequently", "What was the most voted on show?", "What were the most voted on shows?", "votes", "amassed", "voting", "popular", "Which shows acquired the most IMDB votes?"],
+         "responses": ["Question 7"],
+         "context_set": ""},
+         
+         {"tag": "Question 8",
+         "patterns": ["What was the most common genre for a show between", "What genre was made the most", "What genre is there the most of", "Most common genre between", "genre", "common genre", "show genre", "most common genre", "between", "from", "to", "from to", "What is the most popular genre", "From to, what genre was most common for TV shows?"],
+         "responses": ["Question 8"],
+         "context_set": ""},
+         
+         {"tag": "Question 9",
+         "patterns": ["What is the IMDB score of the best voted show with a rating of x?", "What was the score of the best", "What is rating of the best show?", "What show got the highest rating", "What show did people give the highest score to", "What show has the highest score", "best show", "top rating", "best show", "rated", "Which show with a PG rating was the best?", "What PG-13 show had the highest score?"],
+         "responses": ["Question 9"],
+         "context_set": ""},
+         
+         {"tag": "Question 10",
+         "patterns": ["Who were the highest-rated movie directors?", "What directors were the highest-rated", "director", "direct", "Which directors had the best score", "movie directors", "Who were the  most highly-rated directors on IMDB?", "Who was Netflix' highest-rated director on average?", "What were the highest-rated directors in the dataset?", "Who are the highest-rated movie directors?", "What directors are the highest-rated", "Who are the most highly-rated directors on IMDB?", "What are the highest-rated directors in the dataset?", "Who are the top directors", "Who are the highest rated movie directors?", "Who are the highest-rated directors?"],
+         "responses": ["Question 10"],
+         "context_set": ""}
+         
+   ]
+}
