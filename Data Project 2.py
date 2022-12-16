@@ -6,7 +6,7 @@ import pprint
 
 # Extract and Transform 
 titles = pd.read_csv(r"raw_titles.csv").drop(["index"], axis = 1)
-credit = pd.read_csv(r"Netflix data\raw_credits.csv")
+credit = pd.read_csv(r"raw_credits.csv")
 
 all_data = titles.merge(credit, left_on = "id", right_on = "id", how = "left")
 
